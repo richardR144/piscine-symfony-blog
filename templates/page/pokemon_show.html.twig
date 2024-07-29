@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+
+{% block metatitle %}
+    Pokemon : show
+{% endblock %}
+
+{% block body %}
+
+    {% if pokemon and pokemon.isPublished %}
+         <p>{{ pokemon.title }}</p>
+    {% else %}
+        <p>Pokemon non trouvé</p>
+    {% endif %}
+
+{% endblock %}

@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.header-logo {
+    width: 100px;
+}
+
+.header-links li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px;
+    background-color: lightcoral;
+}
+
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pokemon {
+    width: 33.33%;
+
+}
+
+.pokemon-center {
+    background-color: lightseagreen;
+    padding: 50px;
+}
