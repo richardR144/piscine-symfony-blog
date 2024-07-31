@@ -16,8 +16,10 @@
                 <article class="pokemon">
                     <div class="pokemon-center">
                         <p>{{ pokemon.title }}</p>
-                        <a href="{{ path('show_pokemon', {idPokemon: pokemon.id}) }}" >Voir le pokemon</a>
-                        <a href="{{ path('delete') }}"
+                        <a href="{{ path('show_pokemon', {idPokemon: pokemon.id}) }}">Voir le pokemon</a>
+                        <a href="{{ path('delete') }}">Supprimer le pokemon</a>
+                        //création du du chemin url modifier
+                        <a href="{{ path('modify') }}">Modifier le pokemon</a>
                     </div>
 
                 </article>
